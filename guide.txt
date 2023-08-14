@@ -1,0 +1,8 @@
+Open new terminal, choose command prompt (don't use powershell)
+
+type yarn install
+
+then yarn dev. ctrl + click the local link
+
+when you click the local link, it will display Nuxt welcome page. add /condo at the url. 
+So it will be localhost:3000/condo . The condo page will appear
