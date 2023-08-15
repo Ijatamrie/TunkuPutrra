@@ -3,7 +3,7 @@
     <div>
       <div class="py-6 select-none bg-red-500">
         <h1 class="text-xl font-semibold text-center text-white sm:text-2xl">
-          <!--The white coloured text change to desired Main title. will be displayed on the page-->
+          <!--The white coloured text rename to desired Main title. will be displayed on the page-->
           Floor Plan @ Place Name
         </h1>
       </div>

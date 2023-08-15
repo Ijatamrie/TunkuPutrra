@@ -67,7 +67,7 @@
   // rename: `~/assets/img/floorlayout/*.jpg` to your intended folder. 
   // example: you have a folder named shoplots in file assets>img change the above line to: `~/assets/img/shoplots/*.jpg`
   // **if the file type is .png change *.jpg in `~/assets/img/shoplots/*.jpg`,  to *.png
-  // back to file pages>index.vue continue to check the steps on line 24
+  // back to file pages>condo.vue continue to check the steps on line 24
   const glob = import.meta.glob(`~/assets/img/floorlayout/*.jpg`, { eager: true });
   const images = Object.fromEntries(
     Object.entries(glob).map(([key, value]) => [filename(key), value.default])
