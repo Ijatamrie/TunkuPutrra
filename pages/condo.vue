@@ -24,7 +24,22 @@
         
       </div>
       <div class="max-w-4xl px-2 mx-auto space-y-6 divide-y">
-        <!-- Facilities for LayoutOneBedroom -->
+        <!-- Facilities for Front View -->
+        <section class="py-6 space-y-6">
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);"> Tunku Putra HELP School Front View </span>
+            </h3>
+          </div>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
+            <!-- Add your LayoutFiveBedroom content here -->
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
+            <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.808);">
+            <Design :floor-plan-prop="FrontView" />
+            </div>
+          </div>
+        </section>
+        <!-- Facilities for Admin Room -->
         <section class="py-6 space-y-6">
           <div class="bg-white bg-opacity-90 px-4 py-2">
             <h3 class="text-xl font-semibold sm:text-2xl text-center">
@@ -32,26 +47,32 @@
             </h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
-            <!-- Add your LayoutOneBedroom content here -->
-            
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">
-              <span style="color: rgb(78, 78, 78);">Facilities On Admin Room</span>
-            </h3>
+    <!-- Add your LayoutOneBedroom content here -->
+
+      <div class="text-xl font-semibold sm:text-2xl text-center relative">
+        <!-- Create a shadowed blurry background -->
+        <div class="absolute inset-0 bg-white bg-opacity-100 blur-md "></div>
+        <!-- Add your text content -->
+        <h3 class="relative text-white z-10">
+            <span style="color: rgb(15, 15, 15);">Facilities On Admin Room</span>
+            </h3></div>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color:  rgba(53, 53, 53, 0.466);">
             <Design :floor-plan-prop="AdminRoom" />
             </div>
           </div>
         </section>
 
-        <!-- Facilities for LayoutTwoBedroom -->
+        <!-- Facilities for ArtRoom -->
         <section class="py-6 space-y-6">
           <div class="bg-white bg-opacity-90 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutTwoBedroom</h3>
-          </div>
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);"> Art Class Room </span>
+              </h3>
+            </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
             <!-- Add your LayoutTwoBedroom content here -->
             <h3 class="text-xl font-semibold sm:text-2xl text-center">
-              <span style="color: rgb(17, 16, 16);">ArtRoom</span>
+              <span style="color: rgb(17, 16, 16);"></span>
             </h3>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
             <Design :floor-plan-prop="ArtRoom" />
@@ -61,129 +82,196 @@
 
         <!-- Facilities for LayoutThreeBedroom -->
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutThreeBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);"> Black Box Theatre & Dancing Room"</span>
+              </h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
-            <!-- Add your LayoutThreeBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">3 bedroom</h3>
+    <!-- Add your LayoutOneBedroom content here -->
+
+        <div class="text-xl font-semibold sm:text-2xl text-center relative">
+            <!-- Create a shadowed blurry background -->
+            <div class="absolute inset-0 bg-white bg-opacity-90 blur-md "></div>
+
+            <!-- Add your text content -->
+            <h3 class="relative text-white z-10">
+                <span style="color: rgb(15, 15, 15);">A Massive Hall for Theatre and Dancing Class</span></h3></div>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="LayoutThreeBedroom" />
+            <Design :floor-plan-prop="DramaDancingRoom" />
           </div>
           </div>
         </section>
 
         <!-- Facilities for LayoutFourBedroom -->
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFourBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);"> Canteen And Cafe For Student</span></h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
             <!-- Add your LayoutFourBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">4 bedroom</h3>
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="LayoutFourBedroom" />
+            <Design :floor-plan-prop="CafeCanteen" />
             </div>
           </div>
         </section>
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for Layout42Bedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Classroom</span>
+            </h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
             <!-- Add your LayoutFourBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">4 bedroom</h3>
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="Classroom" />
             </div>
           </div>
         </section>
 
         <!-- Facilities for LayoutFiveBedroom -->
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Health Facilities</span></h3>
           </div>
-          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
-            <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">   
+          <div class="text-xl font-semibold sm:text-2xl text-center relative">
+            <div class="absolute inset-0 bg-white bg-opacity-90 blur-md "></div>
+            <h3 class="relative text-white z-10">
+                <span style="color: rgb(15, 15, 15);"> Clinic</span></h3></div>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="LayoutFiveBedroom" />
+            <Design :floor-plan-prop="Clinic" />
             </div>
           </div>
         </section>
+
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Sport and Playground Facilities</span>
+            </h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
             <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="GymPoolFutsalFootbal" />
             </div>
           </div>
         </section>
+
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Design And Technology</span> </h3>
           </div>
-          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
-            <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">   
+          <div class="text-xl font-semibold sm:text-2xl text-center relative">
+            <div class="absolute inset-0 bg-white bg-opacity-90 blur-md "></div>
+            <h3 class="relative text-white z-10">
+                <span style="color: rgb(15, 15, 15);"> Cookery Lab</span></h3></div>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="CookingLab" />
             </div>
           </div>
         </section>
+
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Design And Technology</span></h3>
           </div>
-          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
-            <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">   
+          <div class="text-xl font-semibold sm:text-2xl text-center relative">
+            <div class="absolute inset-0 bg-white bg-opacity-90 blur-md "></div>
+            <h3 class="relative text-white z-10">
+                <span style="color: rgb(15, 15, 15);"> Resistant Metal Room Class</span></h3></div>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="ResistantMetal" />
             </div>
           </div>
         </section>
+      
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Laboratory</span></h3>
           </div>
-          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
-            <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">   
+          <div class="text-xl font-semibold sm:text-2xl text-center relative">
+            <div class="absolute inset-0 bg-white bg-opacity-90 blur-md "></div>
+            <h3 class="relative text-white z-10">
+                <span style="color: rgb(15, 15, 15);"> Type Of Laboratory Available</span></h3></div>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="Lab" />
             </div>
           </div>
         </section>
+
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Library Laila Taib</span></h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
             <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="Library" />
             </div>
           </div>
         </section>
+
         <section class="py-6 space-y-6">
-          <div class="bg-white bg-opacity-50 px-4 py-2">
-            <h3 class="text-xl font-semibold sm:text-2xl">Facilities for LayoutFiveBedroom</h3>
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">MPH Hall</span></h3>
           </div>
           <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
             <!-- Add your LayoutFiveBedroom content here -->
-            <h3 class="text-xl font-semibold sm:text-2xl text-center">5 bedroom</h3>
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
             <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
-            <Design :floor-plan-prop="" />
+            <Design :floor-plan-prop="MHPHAll" />
             </div>
           </div>
         </section>
+
+        <section class="py-6 space-y-6">
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Design And Technology
+              </span></h3>
+          </div>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">   
+          <div class="text-xl font-semibold sm:text-2xl text-center relative">
+            <div class="absolute inset-0 bg-white bg-opacity-90 blur-md "></div>
+            <h3 class="relative text-white z-10">
+                <span style="color: rgb(15, 15, 15);"> Textile Class</span></h3></div>
+            <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
+            <Design :floor-plan-prop="Textile" />
+            </div>
+          </div>
+        </section>
+
+        <section class="py-6 space-y-6">
+          <div class="bg-white bg-opacity-90 px-4 py-2">
+            <h3 class="text-xl font-semibold sm:text-2xl text-center">
+              <span style="color: rgb(17, 17, 17);">Other Facilities At Tunku Putra-HELP School</span>
+            </h3>
+          </div>
+          <div class="max-w-6xl px-4 py-12 mx-auto space-y-12">
+            <!-- Add your LayoutFiveBedroom content here -->
+            <h3 class="text-xl font-semibold sm:text-2xl text-center"></h3>
+            <div class="rounded-lg bg-opacity-30 p-5" style="background-color: rgba(53, 53, 53, 0.466);">
+            <Design :floor-plan-prop="OtherAcomodation" />
+            </div>
+          </div>
+        </section>
+
       </div>
     </div>
   
@@ -203,37 +291,120 @@
 
         //You can add and remove the number of layout below according to your requirements. 
         //delete the whole line if not needed, and add the whole line if needed. example on LayoutFourBedroom and LayoutFiveBedroom
+        FrontView: [
+          { title: 'Front View OF Tunku Putra-HELP School', url: 'FV (4)' ,textColor:'white'},
+          { title: 'School Enterance', url: 'FV (8)' ,textColor:'white'},
+          { title: 'Wide View ', url: 'FV (6)' ,textColor:'white'},
+        ],
         AdminRoom: [
-          { title: 'Entrance', url: 'Admin1',textColor:'white' },
+          { title: 'Entrance', url: 'Admin (7)',textColor:'white' },
+          { title: 'Counter', url: 'Admin1',textColor:'white' },
           { title: 'Achievement', url: 'Admin2',textColor:'white' },
           { title: 'Art', url: 'Admin3',textColor:'white'  },
           { title: 'Acievement Of The School', url: 'Admin4',textColor:'white'  },
-          { title: 'LayoutOne5', url: 'Admin5' ,textColor:'white' },
+          { title: 'Art Display', url: 'Admin5' ,textColor:'white' },
         ],
         ArtRoom: [
-          { title: 'LayoutTwo1', url: 'Art (1)' },
-          { title: 'LayoutTwo2', url: 'Art (2)' },
-          { title: 'LayoutTwo3', url: 'Art (3)' },
-          { title: 'LayoutTwo4', url: 'Art (4)' },
-          { title: 'LayoutTwo5', url: 'Layout5' },
+          { title: 'Enterance', url: 'Art (1)' ,textColor:'white'},
+          { title: 'Student Design', url: 'Art (2)',textColor:'white' },
+          { title: 'Wide View', url: 'Art (3)',textColor:'white' },
+          { title: 'Facilities On Art Room', url: 'Art (4)' ,textColor:'white'},
+         
         ],
-        LayoutThreeBedroom: [
-          { title: 'LayoutThree1', url: 'gamba logo' },
-          { title: 'LayoutThree2', url: 'Layout2' },
-          { title: 'LayoutThree3', url: 'Layout3' },
-          { title: 'LayoutThree4', url: 'Layout4' },
-          { title: 'LayoutThree5', url: 'Layout5' },
+        DramaDancingRoom: [
+          { title: 'Black Room Enterance', url: 'BBTND (1)' ,textColor:'white'},
+          { title: 'Theatre Stage', url: 'BBTND (5)' ,textColor:'white'},
+          { title: 'Theatre Stage Size', url: 'BBTND (7)',textColor:'white' },
+          { title: 'Theratre Room Light', url: 'BBTND (6)',textColor:'white' },
+          { title: '',textColor:'white'},
+          { title: 'Dancing Class Room', url: 'BBTND (10)',textColor:'white' },
+          { title: 'Facilities on Dancing Room', url: 'BBTND (3)',textColor:'white' },
+          { title: 'Prop Room', url: 'BBTND (9)',textColor:'white' },
+          { title: 'Prop', url: 'BBTND (8)',textColor:'white' },
         ],
-        LayoutFourBedroom: [
-          { title: 'LayoutFour1', url: 'Layout1' },
-          { title: 'LayoutFour2', url: 'Layout2' },
-          { title: 'LayoutFour3', url: 'Layout3' },
-          { title: 'LayoutFour4', url: 'Layout4' },
+        CafeCanteen: [
+          { title: 'Canteen Counter', url: 'CAC (3)' ,textColor:'white'},
+          { title: 'Canteen', url: 'CAC (1)' ,textColor:'white'},
+          { title: 'Cafe', url: 'CAC (4)',textColor:'white' },
+       
         ],
-        LayoutFiveBedroom: [
-          { title: 'LayoutFive1', url: 'Layout1' },
-          { title: 'LayoutFive2', url: 'Layout2' },
-          { title: 'LayoutFive3', url: 'Layout3' },
+        Classroom: [
+          { title: 'Primary Classroom ', url: 'Class (3)' ,textColor:'white'},
+          { title: 'Secondary Classroom ', url: 'Class (7)' ,textColor:'white'},
+          { title: 'Classroom Structure', url: 'Class (16)' ,textColor:'white'},
+          { title: 'Computer Lab Class', url: 'Class (15)' ,textColor:'white'},
+          { title: 'Classroom Size', url: 'Class (6)' ,textColor:'white'},
+          { title: 'Side-view', url: 'Class (5)' ,textColor:'white'},
+        ],
+        Clinic: [
+          { title: 'Clinic Enterance', url: 'PGFFP (9)' ,textColor:'white'},
+          { title: 'LayoutFive2', url: 'PGFFP (10)' ,textColor:'white'},
+         
+        ],
+        GymPoolFutsalFootbal: [
+          { title: 'Swimming Pool', url: 'PGFFP (3)' ,textColor:'white'},
+          { title: 'Playground', url: 'PGFFP (6)' ,textColor:'white'},
+          { title: 'Football Field', url: 'PGFFP (4)' ,textColor:'white'},
+          { title: 'Futsal Court', url: 'PGFFP (5)' ,textColor:'white'},
+          { title: 'Gymnasium', url: 'PGFFP (1)' ,textColor:'white'},
+          { title: 'Wide View Playground', url: 'PGFFP (8)' ,textColor:'white'},
+          { title: 'Kindergarten Playground', url: 'OA (2)' ,textColor:'white'},
+        ],
+        CookingLab: [
+          { title: 'Entrance', url: 'CL (4)' ,textColor:'white'},
+          { title: 'Left Side', url: 'CL (2)' ,textColor:'white'},
+          { title: 'Right Side', url: 'CL (3)' ,textColor:'white'},
+          { title: 'Entrance View', url: 'CL (1)' ,textColor:'white'},
+          { title: 'Entrance View', url: 'CL (5)' ,textColor:'white'},
+          { title: 'Wide View Angle', url: 'CL (6)' ,textColor:'white'},
+        ],
+        ResistantMetal: [
+          { title: 'Entrance Label', url: 'RM (4)' ,textColor:'white'},
+          { title: 'Classroom View', url: 'RM (7)' ,textColor:'white'},
+          { title: 'Practical Class', url: 'RM (3)' ,textColor:'white'},
+          { title: 'Student Design', url: 'RM (2)' ,textColor:'white'},
+          { title: 'Heavy Machine Room', url: 'RM (6)' ,textColor:'white'},
+        ],
+      
+        Lab: [
+          { title: 'Entrance Label', url: 'LAB (3)' ,textColor:'white'},
+          { title: 'Biology Lab', url: 'LAB (2)' ,textColor:'white'},
+          { title: 'Front Biology Lab View', url: 'LAB (6)' ,textColor:'white'},
+          { title: 'Entrance View', url: 'LAB (1)' ,textColor:'white'},
+          { title: 'Chemistry Lab', url: 'LAB (8)' ,textColor:'white'},
+          { title: 'Facilies Chemistry Lab', url: 'LAB (4)' ,textColor:'white'},
+        ],
+        Library: [
+          { title: 'Library Sign', url: 'LILA (11)' ,textColor:'white'},
+          { title: 'Welcome guest Sign', url: 'LILA (6)' ,textColor:'white'},
+          { title: 'Front Library Side', url: 'LILA (7)' ,textColor:'white'},
+          { title: 'Aesthetic Book Shelf', url: 'LILA (12)' ,textColor:'white'},
+          { title: 'Back view of the Library', url: 'LILA (1)' ,textColor:'white'},
+          { title: 'Story Telling Section', url: 'LILA (3)' ,textColor:'white'},
+        ],
+        MHPHAll: [
+          { title: 'MPH Shedule', url: 'MPH (1)' ,textColor:'white'},
+          { title: 'MPH Multi-use Hall', url: 'MPH (2)' ,textColor:'white'},
+          { title: 'Mph Hall', url: 'MPH (3)' ,textColor:'white'},
+        ],
+        OtherAcomodation: [
+          { title: 'Elevator', url: 'OA (10)' ,textColor:'white'},
+          { title: 'Student Lounge', url: 'OA (8)' ,textColor:'white'},
+          { title: 'Toilet', url: 'OA (9)' ,textColor:'white'},
+          { title: 'Water Dispanser', url: 'OA (4)' ,textColor:'white'},
+          { title: 'Emergency Stair', url: 'OA (18)' ,textColor:'white'},
+          { title: 'LCD For Each Classes', url: 'OA (17)' ,textColor:'white'},
+          { title: 'Fire Hose', url: 'OA (7)' ,textColor:'white'},
+          { title: 'Kindergarten Safety Grill', url: 'OA (5)' ,textColor:'white'},
+          { title: 'Children Chair', url: 'OA (13)' ,textColor:'white'},
+     
+        ],
+        Textile: [
+          { title: 'Textile Class', url: 'Textile (3)' ,textColor:'white'},
+          { title: 'Entrance View', url: 'Textile (1)' ,textColor:'white'},
+          { title: 'LCD Screen', url: 'Textile (2)' ,textColor:'white'},
+          { title: 'Student Craft', url: 'Textile (4)' ,textColor:'white'},
+          { title: 'Front Design', url: 'Textile (5)' ,textColor:'white'},
         ],
 
       }
@@ -242,7 +413,7 @@
   </script>
   <style>
   html, body {
-    background-image: url('assets\img\Full View Front\photo_3_2023-09-25_14-40-27.jpg');
+    background-image: url('assets\img\photo_3_2023-09-25_14-40-27.jpg');
     background-size: cover;
     background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
   }

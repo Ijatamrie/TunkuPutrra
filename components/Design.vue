@@ -4,7 +4,7 @@
         @click="toggleModal(floorPlan.url)">
         <img :src="images[floorPlan.url]" class="mx-auto rounded  w-2/3" />
         <p class="text-center" :style="{ color: floorPlan.textColor }">
-        <span class="rounded-lg shadow-lg p-4">{{ floorPlan.title }}</span>
+        <span class="rounded-lg shadow-xl p-4">{{ floorPlan.title }}</span>
         </p>
 
       </div>
