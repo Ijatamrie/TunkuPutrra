@@ -1,13 +1,16 @@
 <template>
-    <div class="grid grid-cols-2 gap-2 sm:gap-6 sm:grid-cols-3">
-      <div v-for="(floorPlan, index) in floorPlan.floorPlanProp" :key="index" class="space-y-1 cursor-pointer"
-        @click="toggleModal(floorPlan.url)">
-        <img :src="images[floorPlan.url]" class="mx-auto rounded  w-2/3" />
-        <p class="text-center" :style="{ color: floorPlan.textColor }">
-        <span class="rounded-lg shadow-xl p-4">{{ floorPlan.title }}</span>
-        </p>
+    <div>
+    <div class="flex flex-wrap justify-center">
+      <div class="w-full sm:w-1/3 p-2" v-for="(floorPlan, index) in floorPlan.floorPlanProp" :key="index">
+        <div class="space-y-1 cursor-pointer" @click="toggleModal(floorPlan.url)">
+          <img :src="images[floorPlan.url]" class="mx-auto rounded force-landscape" />
+          <p class="text-center custom-font" :style="{ color: floorPlan.textColor }">
+  <span class="rounded-lg shadow-xl p-4">{{ floorPlan.title }}</span>
+</p>
 
+        </div>
       </div>
+    </div>
   
       <div v-if="modal" class="
           fixed
@@ -76,3 +79,24 @@
     Object.entries(glob).map(([key, value]) => [filename(key), value.default])
   );
   </script>
+  <style scoped>
+<style scoped>
+.fixed-size {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+</style>
+<style scoped>
+.force-landscape {
+  width: 300px;  /* Or whatever width you want */
+  height: 200px;  /* Or whatever height you want */
+  object-fit: cover;
+  object-position: center;
+}
+.custom-font {
+  font-family: 'Arial, sans-serif';
+}
+
+</style>
